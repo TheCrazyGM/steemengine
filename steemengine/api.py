@@ -17,7 +17,7 @@ class Api(object):
     """
     def __init__(self, url=None, rpcurl=None, user=None, password=None, **kwargs):
         if url is None:
-            self.url = 'https://api.steem-engine.com/'
+            self.url = 'https://api.steem-engine.net/rpc'
         else:
             self.url = url
         if url is not None and rpcurl is None:

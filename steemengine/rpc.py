@@ -103,7 +103,7 @@ class RPC(object):
         self.user = user
         self.password = password
         if url is None:
-            self.url = 'https://api.steem-engine.com/rpc/'
+            self.url = 'https://api.steem-engine.net/rpc/'
         else:
             self.url = url
         self.session = shared_session_instance()
